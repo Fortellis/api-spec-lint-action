@@ -1,5 +1,8 @@
 name: 'Fortellis API Specification Lint'
 description: 'Automatically validates Open API 2.0 specifications for correctness and style.'
+branding:
+  icon: alert-triangle
+  color: purple
 runs:
   using: 'docker'
   image: 'Dockerfile'
