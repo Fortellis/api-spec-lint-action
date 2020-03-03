@@ -1,0 +1,15 @@
+name: Spec lint
+
+on: [push]
+
+jobs:
+  Lint:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: spec-lint
+        # uses: dangj/actions-test2@master
+        uses: ./.github/actions/fortellis-spec-lint-action

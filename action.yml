@@ -1,0 +1,6 @@
+name: 'Fortellis Spec Lint'
+description: 'Action to facilitate automatically validating specs according to OpenAPI 2.0 and Fortellis API Spec standards within a Fortellis Spec Repository'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
