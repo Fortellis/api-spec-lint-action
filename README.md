@@ -27,8 +27,6 @@ jobs:
 
 ## Input variables
 
-* spec_files - (Optional) The file paths to explicitly validate. Specifying this option will override any automatic file detection and safety checks
-
 ```yaml
 on: [push]
 
@@ -37,9 +35,6 @@ jobs:
     steps:
     - uses: fortellis/spec-lint
     - name: Lint spec
-+     with:
-+       spec_files:
-+         - specs/appointments-v1.yaml
 ```
 
 ## Output
