@@ -10,6 +10,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v1
-      - name: spec-lint
+      - name: lint-api-spec
         # uses: dangj/actions-test2@master
-        uses: ./.github/actions/fortellis-spec-lint-action
+        uses: ./.github/actions/lint-api-spec
